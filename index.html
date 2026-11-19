@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Practical 3</title>
+</head>
+<body style="background-image: url('./images/img2.svg'); background-color: #10161a; color: #e8e8e8; font-family: Arial, sans-serif;">
+<div style="max-width: 900px; margin: 0 auto; padding: 20px; background-color: rgba(0,0,0,0.65);">
+  <h1 style="text-align: center;">Resident Evil Requiem</h1>
+  <h2 style="text-align: center;">1 вид: зображення по центру, текст зверху</h2>
+  <p style="text-align: justify;">
+    Resident Evil Requiem — дев'ята номерна частина серії survival horror від компанії Capcom.
+    Гра поєднує атмосферу страху та виживання з класичною для серії дослідницькою структурою:
+    похмурі локації, обмежені ресурси та загадки. На скріншоті нижче показано величний
+    парадний хол із двома сходами, колонами та склепінчастою стелею: герой стоїть
+    спиною до гравця й дивиться на освітлені двері, а тьмяне світло створює відчуття тривоги.
+  </p>
+  <div style="text-align: center;">
+    <img src="./images/img1.jpg" alt="Парадний хол із сходами та постать героя"
+         width="640" height="360" style="border: 2px solid #777;"
+         usemap="#holmap">
+    <map name="holmap">
+      <area shape="circle" coords="292,100,22" href="#lamp" alt="Люстра">
+      <area shape="rect" coords="230,200,293,247" href="#door" alt="Освітлені двері">
+      <area shape="rect" coords="390,133,483,360" href="#hero" alt="Герой">
+    </map>
+  </div>
+  <p style="text-align: center;"><em>Рис. 1. Парадний хол (клікніть на люстру, двері або героя)</em></p>
+  <p id="lamp">Люстра — єдиний предмет, що виділяється під склепінням залу.</p>
+  <p id="door">Освітлені двері — орієнтир, куди гравець рухається далі.</p>
+  <p id="hero">Герой — персонаж, яким керує гравець.</p>
+  <hr>
+  <h2 style="text-align: center;">2 вид: зображення зліва, текст обтікає праворуч</h2>
+  <img src="./images/img1.jpg" alt="Парадний хол із сходами та постать героя"
+       width="400" height="225"
+       style="float: left; margin: 0 20px 10px 0; border: 2px solid #777;">
+  <p style="text-align: justify;">
+    Resident Evil Requiem продовжує традиції серії, яка почалася ще в 1996 році. Гравцеві
+    належить досліджувати небезпечні місця, збирати предмети, економити патрони та уникати
+    зустрічей із ворогами, коли сил для бою недостатньо. Саме поєднання тривожної
+    атмосфери, звуку та світла робить серію впізнаваною. 
+  </p>
+  <div style="clear: both;"></div>
+  <hr>
+  <h2 style="text-align: center;">Малюнок 3 — посилання</h2>
+  <div style="text-align: center;">
+    <a href="https://en.wikipedia.org/wiki/Resident_Evil_Requiem" target="_blank">
+      <img src="./images/img3.jpg" alt="Висока постать у чорному капелюсі тримає за руку дитину — перейти на сторінку про гру"
+           width="320" height="180" style="border: 2px solid #777;">
+    </a>
+    <p>Клікніть на зображення, щоб перейти на сторінку про гру.</p>
+  </div>
+</div>
+</body>
+</html>
